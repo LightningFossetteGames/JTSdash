@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: lightblue;
+  font-family: "Fredoka One", sans-serif;
+}
+
+#startScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#startScreen h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+#startScreen h2 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+canvas {
+  display: none;
+  background: #5dd15d;
+}
+
+#blockImg {
+  display: none;
+}
